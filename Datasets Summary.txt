@@ -1,0 +1,22 @@
+URL List with Content Summary
+
+1. GSS: https://gss.norc.org/us/en/gss/get-the-data.html
+   • Thousands of survey responses capturing socioeconomic, education, and digital access data.
+   • Suitable for predictive modeling of societal trends.
+
+2. Tox21: https://tripod.nih.gov/pubdata
+   • Dataset of 8,500 chemical compounds with toxicity profiles.
+   • Useful for health risk models and compound safety predictions.
+
+3. NOAA Paleoclimatology: https://www.ncei.noaa.gov/products/paleoclimatology
+   • Historical temperature, CO₂, and emissions data spanning millennia.
+   • Supports food security and climate risk forecasting.
+
+4. 1000 Genomes Project: https://www.internationalgenome.org/data
+   • Over 250 million human genetic variants from global populations.
+   • Enables personalized medicine and genetic prediction models.
+
+5. Earth BioGenome Project: https://www.earthbiogenome.org/
+   • Genomic and ecological data from diverse eukaryotic species.
+   • Essential for biodiversity tracking and food system modeling.
+
