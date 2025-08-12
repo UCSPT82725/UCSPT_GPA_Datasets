@@ -18,5 +18,5 @@ This repository hosts datasets for the paper, ensuring *Nature*’s open-access 
 ## Additional Datasets
 
 Supplementary datasets support cross-disciplinary validation. Metadata (file formats: CSV,
-JSON; sizes: 10MB–1GB) in the Datasets folder. Contact \[Your Email] for restricted datasets.
+JSON; sizes: 10MB–1GB) in the Datasets folder. Contact [thomasbessent@gmail.com] for restricted datasets.
 
