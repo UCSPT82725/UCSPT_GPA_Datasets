@@ -12,8 +12,8 @@ This repository hosts datasets for the paper, ensuring *Nature*’s open-access 
 4. **Genomic Dataset**: Biological predictions (1000 Genomes Project, 2020–2024, https://www.internationalgenome.org/data-portal/data-collection/phase-3). If restricted, contact data-help@ebi.ac.uk for access, per consortium agreement.
 5. **Ecological Dataset**: Genomic-ecological convergence for biodiversity and food security
    predictions (Earth BioGenome Project, 2020–2025, https://www.earthbiogenome.org). If restricted, contact info@earthbiogenome.org for access, per Nagoya Protocol.
-6. **Historical Archive**: 1500–2025 historical data (https://github.com/UCSPT/GPA/datasets/GHA, CC BY 4.0).
-7. **Synthetic Archive**: 2030–2200 predictions (https://github.com/UCSPT/GPA/datasets/FSA, CC BY 4.0).
+6. **Historical Archive**: 1500–2025 historical data ([https://github.com/UCSPT/GPA/datasets/GHA](https://github.com/thomasbessent/UCSPT_GPA_Datasets/blob/main/data/FSA.csv), CC BY 4.0).
+7. **Synthetic Archive**: 2030–2200 predictions ([https://github.com/UCSPT/GPA/datasets/FSA](https://github.com/thomasbessent/UCSPT_GPA_Datasets/blob/main/data/GHA.csv), CC BY 4.0).
 
 ## Additional Datasets
 
