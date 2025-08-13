@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Interactive Line Plot: Emissions & CO₂</title>
+  <title>CO2 Emission and Concentration Future Projection</title>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <style>
     body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 24px; }
@@ -14,7 +14,7 @@
 </head>
 <body>
   <h1>Interactive Line Plot</h1>
-  <div class="meta">Year: <code>Year</code>, Emissions: <code>Emissions_(GtCO2)</code>, CO₂: <code>CO2_(ppm)</code></div>
+  <div class="meta">Year: <code>Year</code>, Emissions: <code>Emissions_(GtCO2)</code>, Concentration: <code>Concentration_(ppm)</code></div>
   <div id="plot"></div>
 
   <script>
@@ -40,11 +40,11 @@
     };
 
     const layout = {
-      title: 'Emissions (GtCO₂) & CO₂ (ppm) over Time',
+      title: 'Emissions (GtCO₂) & Concentration (ppm) over Time',
       xaxis: { title: 'Year' },
       yaxis: { title: 'Emissions_(GtCO2)' },
       yaxis2: {
-        title: 'CO2_(ppm)',
+        title: 'Concentration_(ppm)',
         overlaying: 'y',
         side: 'right'
       },
