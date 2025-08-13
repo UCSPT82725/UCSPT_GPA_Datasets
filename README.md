@@ -18,5 +18,19 @@ This repository hosts datasets for the paper, ensuring *Nature*’s open-access 
 ## Additional Datasets
 
 Supplementary datasets support cross-disciplinary validation. Metadata (file formats: CSV,
-JSON; sizes: 10MB–1GB) in the Datasets folder. Contact [thomasbessent@gmail.com] for restricted datasets.
+JSON; sizes: 10MB–1GB) in the Datasets folder. 
+
+
+
+For inquiries about restricted datasets, contact \[thomasbessent@gmail.com]. Specific dataset access is available via the following contacts: 
+
+GSS (help@norc.org, icpsr-help@umich.edu)
+
+Tox21 (ntpdata@niehs.nih.gov)
+
+NOAA (ncei.info@noaa.gov
+
+1000 Genomes (data-help@ebi.ac.uk)
+
+Earth BioGenome (info@earthbiogenome.org)
 
