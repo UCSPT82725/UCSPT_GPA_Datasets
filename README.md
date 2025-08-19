@@ -38,4 +38,4 @@ The UCSPT introduces the General Predictive Algorithm (GPA) and Universal Predic
 - Contact: thomasbessent@gmail.com for data requests or inquiries.
 
 ## License
-This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License, pending *Nature* open access approval.
+This work is licensed under Nature’s open-access terms (pending CC BY 4.0 waiver approval), with IP protection pursued separately.
