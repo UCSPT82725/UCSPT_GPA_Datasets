@@ -24,12 +24,13 @@ The UCSPT introduces the General Predictive Algorithm (GPA) and Universal Predic
 - **v1.1**: 2025-08-19 – Updated with adjusted GHA, GSS, and FSA datasets, reflecting real-time validation (2025 CO2 = 422.6 ppm).
 
 ## Data Sources
-- NOAA Climate: https://www.noaa.gov
-- General Social Survey: https://www.norc.org
-- Tox21: https://tripod.nih.gov/tox21/
-- 1000 Genomes: https://www.ebi.ac.uk/1000genomes
-- Earth BioGenome: https://www.earthbiogenome.org
+- NOAA Paleoclimatology: https://www.ncei.noaa.gov/products/paleoclimatology
+- General Social Survey: https://gss.norc.org/us/en/gss/get-the-data.html
+- Tox21: https://tripod.nih.gov/pubdata
+- 1000 Genomes: https://www.internationalgenome.org/data
+- Earth BioGenome: https://www.earthbiogenome.org/
 - Repository: https://github.com/thomasbessent/UCSPT_GPA_Datasets
+
 
 ## Notes
 - Datasets are synthetic where raw data are restricted (e.g., GSS, Tox21). Empirical validation is planned post-review.
