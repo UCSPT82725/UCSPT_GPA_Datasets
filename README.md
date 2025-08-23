@@ -8,7 +8,7 @@ This repository hosts the datasets, code, and supporting materials for the paper
 - **UCSPT_Paper.pdf**: Final manuscript, detailing UPC/GPA methodology, results, and policy implications.
 - **UCSPT_Supplementary_Information.pdf**: Supplementary details on datasets, validations, and figures.
 - **UCSPT_Cover_Letter.pdf**: Cover letter for *Nature* submission.
-- **Datasets.pdf**: Compiled sample datasets with metadata.
+- **UCSPT_Dataset_Metadata.pdf**: Compiled sample datasets with metadata.
 
 ### /data
 - **GHA.csv**: Historical Global Human Activity (1500–2025, 526 rows, CO2 = 422.6 ppm in 2025, R² = 0.999971).
