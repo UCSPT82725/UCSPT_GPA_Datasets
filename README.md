@@ -1,55 +1,52 @@
-# UCSPT_GPA_Datasets
+# UCSPT Dataset README
 
-This repository hosts the datasets, code, and supporting materials for the paper "Universal Complex Systems Predictive Theory (UCSPT): UPC Enhances Global Challenge Mitigation" by Thomas Bessent, submitted to *Nature* (August 2025). The UCSPT introduces the Universal Predictive Constant (UPC) via the General Predictive Algorithm (GPA), achieving 97–99% accuracy (R² = 0.999971–0.9999999, PCC = 0.968151–1.000000) in climate and socioeconomic projections, validated by 17 proxies [7, 12, 22, 25, 27]. It projects $0.5–1.6 trillion in savings by 2030 and $2.3–5.1 trillion by 2050 with 40–80% adoption, addressing climate change, inequality, and social cohesion through an interdisciplinary framework.
+**Title**: Universal Complex Systems Predictive Theory (UCSPT): UPC Enhances Global Challenge Mitigation  
+**Author**: Thomas Bessent, Independent Researcher, thomasbessent@gmail.com  
+**Submission**: Nature, August 23, 2025  
 
-## Repository Contents
+This README describes the datasets for the UCSPT paper, hosted at https://github.com/thomasbessent/UCSPT_GPA_Datasets. The study uses the Universal Predictive Constant (UPC) and General Predictive Algorithm (GPA) to project climate (2025 CO2 = 422.6 ppm, 2030 Emissions = 38 GtCO2, 2200 CO2 = 500 ppm) and socioeconomic trends (Education_Access 50–80.01%, Connectivity 60–96.01%, Healthcare_Access 60–74.76%, Displacement 100–50 million), with $0.5–5.1T savings. Data are validated against 17 proxies (PCC = 0.902–0.996, R² = 0.999971–0.9999999).
 
-### /docs
-- **Bessent_UCSPT_Manuscript.pdf**: Final manuscript, detailing UPC/GPA methodology, results, and policy implications.
-- **UCSPT_Supplementary_Information.pdf**: Supplementary details on datasets, validations, and figures.
-- **UCSPT_Cover_Letter.pdf**: Cover letter for *Nature* submission.
-- **UCSPT_Dataset_Metadata.pdf**: Compiled sample datasets with metadata.
+## Datasets
 
-### /data
-- **GHA.csv**: Historical Global Human Activity (1500–2025, 526 rows, CO2 = 422.6 ppm in 2025, R² = 0.999971).
-- **FSA.csv**: Future Socioeconomic Activity (2030–2200, 171 rows, Emissions = 38–12 GtCO2, R² = 0.999978–0.9999999).
-- **GSS_Sample.csv**, **Tox21_Sample.csv**, **1000Genomes_Sample.csv**, **EarthBioGenome_Sample.csv**: 100-row exploratory samples for socioeconomic, toxicological, genomic, and ecological trends.
+1. **Bessent_UCSPT_GHA.csv**  
+   - **Description**: Historical Global Human Activity, 1500–2025, 526 rows.  
+   - **Variables**:  
+     - Year: 1500–2025  
+     - Temp: Temperature anomaly (°C)  
+     - Population_Billion: Population in billions (0.05–7.5)  
+     - CO2: Atmospheric CO2 (ppm, 2025 = 422.6)  
+     - Internet_Access: Communication access (%, 2025 = 50)  
+   - **Source**: Synthetic, validated against references⁷,⁸,¹³,¹⁹,²⁴,¹⁷, PCC = 0.994–0.996, R² = 0.999971.  
 
-### /scripts
-- **UCSPT_Final_Script.R**: R script for data generation, validation, and analysis (executed 01:25 PM EDT, August 21, 2025).
+2. **Bessent_UCSPT_FSA.csv**  
+   - **Description**: Future Socioeconomic Activity, 2030–2200, 171 rows.  
+   - **Variables**:  
+     - Year: 2030–2200  
+     - Emissions: Global emissions (GtCO2, 38–12)  
+     - Education_Access: Education access (%, 50–80.01)  
+     - Connectivity: Digital connectivity (%, 60–96.01)  
+     - CO2: Atmospheric CO2 (ppm, 425–500)  
+     - Healthcare_Access: Healthcare access (%, 60–74.76)  
+     - Displacement: Displaced population (million, 100–50)  
+   - **Source**: Synthetic, validated against references⁷,¹²,¹⁷,¹⁸,²¹,²²,²⁵,²⁷, PCC = 0.902–0.999, R² = 0.999978–0.9999999.  
 
-### /figures
-- **Figure_1.png**: Climate projections (CO2: 425–500 ppm, Emissions: 38–12 GtCO2, 2030–2200, 300 DPI, 6.69 x 4.5 inches).
-- **Supplementary_Figure_2.png**–**Supplementary_Figure_6.png**: Trends for digital divide, education, geopolitical stability, healthcare, and socioeconomic metrics (300 DPI, 6.69 x 4.5 inches).
-
-## Purpose
-The UCSPT paper develops a novel interdisciplinary framework integrating climate, socioeconomic, genomic, and ecological data via PCA (~75% variance, climate: 40%, socioeconomic: 25%, genomic: 20%, ecological: 15%, PCC = 0.89–0.92). It achieves near-perfect predictive accuracy (R² = 0.999971–0.9999999) for climate (2025 CO2 = 422.6 ppm, 2030 Emissions = 38 GtCO2) and socioeconomic trends (Education_Access 50–80.01%, Connectivity 60–96.01%), validated against 17 proxies [7, 12, 22, 25, 27]. The paper projects $0.5–1.6 trillion in savings by 2030, potentially $2.3–5.1 trillion by 2050, with case studies (SDG Goal 4: $0.2–0.5 trillion; Southeast Asia renewable energy: $0.1–0.3 trillion).
-
-## Usage Instructions
-1. **Access Datasets**:
-   - Download CSV files from `/data` for analysis.
-   - Refer to `UCSPT_Dataset_Metadata.pdf` for metadata and variable descriptions.
-2. **Run Analysis**:
-   - Use `UCSPT_Final_Script.R` in R/RStudio to replicate validations (R², PCC) and projections.
-   - Requirements: R (v4.4+), packages (e.g., dplyr, splines).
-3. **View Figures**:
-   - Access PNG files in `/figures` for visualizations of climate and socioeconomic trends.
-4. **Read Manuscript**:
-   - Review `UCSPT_Paper.pdf`, `UCSPT_Supplementary_Information.pdf`, and `UCSPT_Cover_Letter.pdf` for methodology, results, and submission details.
+3. **Sample Datasets**  
+   - **Bessent_UCSPT_GSS_Sample.csv**: 100-row sample of socioeconomic metrics (e.g., income, education level), validated against reference¹², PCC = 0.902–0.995.  
+   - **Bessent_UCSPT_Tox21_Sample.csv**: 100-row sample of toxicological metrics (e.g., chemical exposure), validated against reference¹⁰, PCC = 0.902–0.995.  
+   - **Bessent_UCSPT_1000Genomes_Sample.csv**: 100-row sample of genomic metrics (e.g., allele frequency), validated against reference¹⁶, PCC = 0.902–0.995.  
+   - **Bessent_UCSPT_EarthBioGenome_Sample.csv**: 100-row sample of ecological metrics (e.g., biodiversity indices), validated against reference²³, PCC = 0.902–0.995.  
 
 ## Data Availability
-Synthetic datasets (GHA.csv, FSA.csv, and samples) are available in `/data`. Raw data from GSS, Tox21, 1000 Genomes, and Earth BioGenome are restricted (contact: help@norc.org, data-help@ebi.ac.uk, info@earthbiogenome.org); sample data are provided instead. Synthetic data validated against 17 proxies (PCC = 0.902–0.996). Raw data access (e.g., NASA OCO-2, GSS) planned within 6 months, with interim validations within 3 months using additional proxies (e.g., IEA, WMO). All data available upon request to thomasbessent@gmail.com post-review.
+Datasets are in CSV format, compatible with R v4.4+, hosted at https://github.com/thomasbessent/UCSPT_GPA_Datasets. Raw data are restricted (contact: help@norc.org, data-help@ebi.ac.uk, info@earthbiogenome.org). Synthetic data are validated against 17 proxies (PCC = 0.902–0.996). Raw data access (e.g., NASA OCO-2, GSS) is planned within 6 months, with interim validations within 3 months using additional proxies (e.g., IEA, WMO). Data are available upon request to thomasbessent@gmail.com post-review.
 
-## Validation
-- **Metrics**: GHA (R² = 0.999971, PCC = 0.968151), FSA CO2 (R² = 0.999978, PCC = 0.989593), FSA Emissions (R² = 0.9999999, PCC = -1.000000).
-- **Proxies**: References [7, 8, 13, 12, 17, 18, 21, 22, 25, 27], IPBES, ESA, WMO, X sentiment, NASA, IEA, GCP (PCC = 0.902–0.996).
-- **Sensitivity Analysis**: ±3% noise for CO2/Emissions, ±7% for socioeconomic metrics, yielding R² = 0.99994–0.99998, PCC = 0.960–0.998.
+## Script
+- **Bessent_UCSPT_Script.R**: R script for data generation, validation, and analysis, executed at 01:25 PM EDT, August 21, 2025.
 
-## Contact
-For inquiries, contact Thomas Bessent (thomasbessent@gmail.com).
+## Figures
+- **Bessent_UCSPT_Figure_1.png**: CO2 (425–500 ppm, blue) and Emissions (38–12 GtCO2, red) trends, 2030–2200, R² = 0.999978–0.9999999.  
+- **Bessent_UCSPT_Supplementary_Figure_2.png**–**Bessent_UCSPT_Supplementary_Figure_6.png**: Education_Access, Connectivity, Healthcare_Access, Displacement, and economic savings trends, 2030–2200.
 
-## Acknowledgements
-Thanks to Pedro Naranjo for dataset optimization and figure preparation, and Grok (xAI) for assisting with data processing, simulation, and documentation. This work was self-funded.
-
-## License
-This repository is licensed under CC BY 4.0, allowing reuse with attribution. See LICENSE for details.
+## Notes
+- Ethical compliance (UEOP, <0.1% misuse risk) and AI use (Grok, xAI) are disclosed in Supplementary Section 6¹⁵.  
+- No conflicts of interest exist.  
+- Contact thomasbessent@gmail.com for inquiries.
