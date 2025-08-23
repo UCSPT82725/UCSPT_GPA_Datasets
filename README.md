@@ -5,7 +5,7 @@ This repository hosts the datasets, code, and supporting materials for the paper
 ## Repository Contents
 
 ### /docs
-- **UCSPT_Paper.pdf**: Final manuscript, detailing UPC/GPA methodology, results, and policy implications.
+- **Bessent_UCSPT_Manuscript.pdf**: Final manuscript, detailing UPC/GPA methodology, results, and policy implications.
 - **UCSPT_Supplementary_Information.pdf**: Supplementary details on datasets, validations, and figures.
 - **UCSPT_Cover_Letter.pdf**: Cover letter for *Nature* submission.
 - **UCSPT_Dataset_Metadata.pdf**: Compiled sample datasets with metadata.
