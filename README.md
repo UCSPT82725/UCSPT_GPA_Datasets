@@ -28,7 +28,7 @@ The UCSPT paper develops a novel interdisciplinary framework integrating climate
 ## Usage Instructions
 1. **Access Datasets**:
    - Download CSV files from `/data` for analysis.
-   - Refer to `Datasets.pdf` for metadata and variable descriptions.
+   - Refer to `UCSPT_Dataset_Metadata.pdf` for metadata and variable descriptions.
 2. **Run Analysis**:
    - Use `UCSPT_Final_Script.R` in R/RStudio to replicate validations (R², PCC) and projections.
    - Requirements: R (v4.4+), packages (e.g., dplyr, splines).
