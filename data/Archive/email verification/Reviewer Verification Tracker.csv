@@ -1,6 +1,0 @@
-Reviewer,Email Provided,Affiliation,Domain Valid,Format Valid,Verification Status,Recommended Alternative,Comments
-Dr. Hoai An Le Thi,hoai-an.le-thi@univ-lorraine.fr,"Univ. of Lorraine (LGIPM), France",Yes,Yes,Confirmed via Univ. of Lorraine profile,,Department profile explicitly lists the exact email hoai-an.le-thi@univ-lorraine.fr
-Dr. Stefan Thurner,stefan.thurner@meduniwien.ac.at,"Medical University of Vienna, Austria",Yes,Yes,"Confirmed (MedUni Vienna profile, publications)",stefan.thurner@muv.ac.at,MedUni Vienna pages and recent publications list stefan.thurner@meduniwien.ac.at; some journals still show the older @muv.ac.at alias
-Dr. Javad Taghia,javad.taghia@unsw.edu.au,"UNSW Sydney, Australia",Yes,Likely invalid local-part,Likely invalid; official is j.taghia@unsw.edu.au,j.taghia@unsw.edu.au,UNSW course outline lists j.taghia@unsw.edu.au; Google Scholar shows a verified @unsw.edu.au identity
-Dr. Gavin Schmidt,gavin.schmidt@nasa.gov,"NASA GISS, USA",Yes,Likely invalid local-part,Likely invalid; official is gavin.a.schmidt@nasa.gov,gavin.a.schmidt@nasa.gov,NASA GSFC directory lists gavin.a.schmidt@nasa.gov (middle initial required)
-Dr. Ewan Birney,ewan.birney@ebi.ac.uk,"EMBL-EBI, UK",Yes,Unlikely per official listing,Not confirmed; official is birney@ebi.ac.uk,birney@ebi.ac.uk,EMBL-EBI people pages present birney@ebi.ac.uk
