@@ -1,52 +1,31 @@
-# UCSPT Dataset README
+# UCSPT_GPA_Datasets
 
-**Title**: Universal Complex Systems Predictive Theory (UCSPT): UPC Enhances Global Challenge Mitigation  
-**Author**: Thomas Bessent, Independent Researcher, thomasbessent@gmail.com  
-**Submission**: Nature, August 23, 2025  
-
-This README describes the datasets for the UCSPT paper, hosted at https://github.com/thomasbessent/UCSPT_GPA_Datasets. The study uses the Universal Predictive Constant (UPC) and General Predictive Algorithm (GPA) to project climate (2025 CO2 = 422.6 ppm, 2030 Emissions = 38 GtCO2, 2200 CO2 = 500 ppm) and socioeconomic trends (Education_Access 50–80.01%, Connectivity 60–96.01%, Healthcare_Access 60–74.76%, Displacement 100–50 million), with $0.5–5.1T savings. Data are validated against 17 proxies (PCC = 0.902–0.996, R² = 0.999971–0.9999999).
+This repository hosts datasets, script, and figures for the *Universal Complex Systems Predictive Theory (UCSPT)* paper, submitted to *Nature* (2025).
 
 ## Datasets
-
-1. **Bessent_UCSPT_GHA.csv**  
-   - **Description**: Historical Global Human Activity, 1500–2025, 526 rows.  
-   - **Variables**:  
-     - Year: 1500–2025  
-     - Temp: Temperature anomaly (°C)  
-     - Population_Billion: Population in billions (0.05–7.5)  
-     - CO2: Atmospheric CO2 (ppm, 2025 = 422.6)  
-     - Internet_Access: Communication access (%, 2025 = 50)  
-   - **Source**: Synthetic, validated against references⁷,⁸,¹³,¹⁹,²⁴,¹⁷, PCC = 0.994–0.996, R² = 0.999971.  
-
-2. **Bessent_UCSPT_FSA.csv**  
-   - **Description**: Future Socioeconomic Activity, 2030–2200, 171 rows.  
-   - **Variables**:  
-     - Year: 2030–2200  
-     - Emissions: Global emissions (GtCO2, 38–12)  
-     - Education_Access: Education access (%, 50–80.01)  
-     - Connectivity: Digital connectivity (%, 60–96.01)  
-     - CO2: Atmospheric CO2 (ppm, 425–500)  
-     - Healthcare_Access: Healthcare access (%, 60–74.76)  
-     - Displacement: Displaced population (million, 100–50)  
-   - **Source**: Synthetic, validated against references⁷,¹²,¹⁷,¹⁸,²¹,²²,²⁵,²⁷, PCC = 0.902–0.999, R² = 0.999978–0.9999999.  
-
-3. **Sample Datasets**  
-   - **Bessent_UCSPT_GSS_Sample.csv**: 100-row sample of socioeconomic metrics (e.g., income, education level), validated against reference¹², PCC = 0.902–0.995.  
-   - **Bessent_UCSPT_Tox21_Sample.csv**: 100-row sample of toxicological metrics (e.g., chemical exposure), validated against reference¹⁰, PCC = 0.902–0.995.  
-   - **Bessent_UCSPT_1000Genomes_Sample.csv**: 100-row sample of genomic metrics (e.g., allele frequency), validated against reference¹⁶, PCC = 0.902–0.995.  
-   - **Bessent_UCSPT_EarthBioGenome_Sample.csv**: 100-row sample of ecological metrics (e.g., biodiversity indices), validated against reference²³, PCC = 0.902–0.995.  
-
-## Data Availability
-Datasets are in CSV format, compatible with R v4.4+, hosted at https://github.com/thomasbessent/UCSPT_GPA_Datasets. Raw data are restricted (contact: help@norc.org, data-help@ebi.ac.uk, info@earthbiogenome.org). Synthetic data are validated against 17 proxies (PCC = 0.902–0.996). Raw data access (e.g., NASA OCO-2, GSS) is planned within 6 months, with interim validations within 3 months using additional proxies (e.g., IEA, WMO). Data are available upon request to thomasbessent@gmail.com post-review.
+- **Bessent_UCSPT_GHA.csv**: Historical Global Human Activity (1500–2025, 526 rows, variables: Year, Temp, Population_Billion, CO2, Internet_Access).
+- **Bessent_UCSPT_FSA.csv**: Future Socioeconomic Activity (2030–2200, 171 rows, variables: Year, Emissions, Education_Access, Connectivity, CO2, Healthcare_Access, Displacement).
+- **Samples**:
+  - **Bessent_UCSPT_GSS_Sample.csv**: General Social Survey sample (100 rows).
+  - **Bessent_UCSPT_Tox21_Sample.csv**: Tox21 chemical exposure sample (100 rows).
+  - **Bessent_UCSPT_1000Genomes_Sample.csv**: Genomic allele frequency sample (100 rows).
+  - **Bessent_UCSPT_EarthBioGenome_Sample.csv**: Biodiversity indices sample (100 rows).
 
 ## Script
-- **Bessent_UCSPT_Script.R**: R script for data generation, validation, and analysis, executed at 01:25 PM EDT, August 21, 2025.
+- **Bessent_UCSPT_Script.R**: R script (v4.4+, executed 01:25 PM EDT, August 21, 2025) implementing the General Predictive Algorithm (GPA) for UCSPT claims.
 
 ## Figures
-- **Bessent_UCSPT_Figure_1.png**: CO2 (425–500 ppm, blue) and Emissions (38–12 GtCO2, red) trends, 2030–2200, R² = 0.999978–0.9999999.  
-- **Bessent_UCSPT_Supplementary_Figure_2.png**–**Bessent_UCSPT_Supplementary_Figure_6.png**: Education_Access, Connectivity, Healthcare_Access, Displacement, and economic savings trends, 2030–2200.
+- **Bessent_UCSPT_Figure_1.png**: Climate projection (CO2: 425–500 ppm, Emissions: 38–12 GtCO2, 2030–2200).
+- **Bessent_UCSPT_Supplementary_Figure_2.png**–**6.png**: Socioeconomic trends (Connectivity, Education_Access, Healthcare_Access, Displacement, 300 DPI PNG).
 
-## Notes
-- Ethical compliance (UEOP, <0.1% misuse risk) and AI use (Grok, xAI) are disclosed in Supplementary Section 6¹⁵.  
-- No conflicts of interest exist.  
-- Contact thomasbessent@gmail.com for inquiries.
+## Documentation
+- **Bessent_UCSPT_Dataset_Metadata.pdf**: Describes datasets, variables, and validation methods.
+- **Supplementary Section 3**: Details UPC methodology (spline-based noise adjustment, Markov chain simulations) and future applications (genomics, biodiversity, social dynamics, energy systems, urban planning, food security, climate adaptation, economic inequality).
+- **Supplementary Section 4**: Table S4.1 maps UCSPT claims to interdisciplinary domains (climate, socioeconomics, genomics, ecology).
+- **Supplementary Section 5**: Case studies (e.g., $0.1–0.3T Southeast Asia renewables, $0.5T global renewables) and stakeholder engagement plan (virtual webinars, X posts, training sessions by 2026).
+- **Supplementary Section 6**: Alt-texts for figures, ensuring accessibility.
+- **Supplementary Section 7**: Universal Ethical Optimization Protocol (UEOP, <0.1% misuse risk) and ethical impact statement.
+- **Supplementary Section 8**: Additional validation (Mean Absolute Error metrics, e.g., MAE = 0.05 ppm for CO2), aligned with *Nature*’s data availability standards.
+
+## Access
+Hosted at <https://github.com/thomasbessent/UCSPT_GPA_Datasets>. Synthetic data limitations are disclosed in the Data Availability Statement. Raw data access is planned within 6 months (contact: help@norc.org for GSS, data-help@ebi.ac.uk for 1000Genomes, info@earthbiogenome.org for Earth BioGenome).
