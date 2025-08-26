@@ -10,7 +10,7 @@ This repository (https://github.com/thomasbessent/UCSPT_GPA_Datasets) hosts data
 - **Root**: Contains the README and R script for reproducibility.
 
 ## Datasets
-All datasets are in CSV format, compatible with R v4.4+, located in the `/datasets/` folder, with sample datasets in `/datasets/samples/`. Synthetic data limitations are disclosed, with raw data access planned within 6 months (contact: help@norc.org, data-help@ebi.ac.uk, info@earthbiogenome.org). Data available upon request to thomasbessent@gmail.com post-review.
+All datasets are in CSV format, compatible with R v4.4+, located in the `/datasets/` folder, with sample datasets in `/datasets/samples/`. Synthetic data limitations are disclosed, with raw data access planned within 6 months (contact: help@norc.org, data-help@ebi.ac.uk, info@earthbiogenome.org). Contact via the Nature submission portal.
 
 ### /datasets/Bessent_UCSPT_GHA.csv
 - **Description**: Historical Global Human Activity (1500–2025, 526 rows).
