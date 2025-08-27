@@ -1,6 +1,6 @@
 # Universal Complex Systems Predictive Theory (UCSPT) Datasets and Code
 
-This repository ([https://github.com/anonymous/UCSPT_GPA_Datasets](https://github.com/anonymous/UCSPT_GPA_Datasets)) contains datasets, code, and validation outputs supporting the manuscript “Universal Complex Systems Predictive Theory (UCSPT): UPC Enhances Global Challenge Mitigation,” submitted to *Nature* as a Social Sciences - Article. All materials are anonymized for double anonymized review, per *Nature*’s guidelines.
+This repository ([https://github.com/UCSPT82725/UCSPT_GPA_Datasets](https://github.com/UCSPT82725/UCSPT_GPA_Datasets)) contains datasets, code, and validation outputs supporting the manuscript “Universal Complex Systems Predictive Theory (UCSPT): UPC Enhances Global Challenge Mitigation,” submitted to *Nature* as a Social Sciences - Article. All materials are anonymized for double anonymized review, per *Nature*’s guidelines.
 
 ## Repository Contents
 
@@ -29,7 +29,7 @@ The repository includes the following files, organized in the root directory and
 
 ## Instructions for Use
 
-1. **Access Files**: Download all files from [https://github.com/anonymous/UCSPT_GPA_Datasets](https://github.com/anonymous/UCSPT_GPA_Datasets).
+1. **Access Files**: Download all files from [https://github.com/UCSPT82725/UCSPT_GPA_Datasets](https://github.com/UCSPT82725/UCSPT_GPA_Datasets).
 2. **Software Requirements**: Install R (version 4.4 or higher) with packages `stats` and `splines`.
 3. **Running the Code**:
    - Set the working directory to the root folder containing `UCSPT_Script.R` and `/datasets/`:
